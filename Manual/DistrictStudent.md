@@ -158,7 +158,7 @@ If, during the current school year, the student exits the district and then retu
 If the student exits and returns one or more times within an current school year, all of the entry/exit dates shall be reported (requires multiple records for the student).  
 If a student has multiple records the Date Enrolled in District may not overlap with another record for the student.  
 If the student enrolls during the summer when school is not in session, use the date the student will begin classes (the first day of the current school year) as the district enrollment date.  
-The enrollment date must be on or after [Element B09, Birth Date](#Element-B09---Birth-Date), and less than six months from the future enrollment.  
+The enrollment date must be on or after [Element B09, Birth Date](#element-b09---birth-bate), and less than six months from the future enrollment.  
 **Example:** 1/1/2000 or 01/01/2000  
 **Last Updated:** April 2008  
 
