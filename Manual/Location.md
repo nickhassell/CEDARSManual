@@ -1,19 +1,19 @@
-[Location File (A)](#location-file-A)
-**File Name:** Location
-**Description:** This file contains information about each district with an OSPI assigned County-District Code and each school within the district. Each of the District’s schools with enrolled students will be reported in this file using the OSPI assigned school code. Additional district and school information will continue to be collected through the Education Data System (EDS) Profile. This CEDARS file is necessary to link data between the thirteen (13) CEDARS files. Placeholder records that districts may use for programs or sub-sets of schools should not be reported in this file.
+[Location File (A)](#location-file-A)  
+**File Name:** Location  
+**Description:** This file contains information about each district with an OSPI assigned County-District Code and each school within the district. Each of the District’s schools with enrolled students will be reported in this file using the OSPI assigned school code. Additional district and school information will continue to be collected through the Education Data System (EDS) Profile. This CEDARS file is necessary to link data between the thirteen (13) CEDARS files. Placeholder records that districts may use for programs or sub-sets of schools should not be reported in this file.  
 
 **Sample File Name:** 12345_0000_Location_20070303.txt
 
-[Element A01 - School Year](#A01-School-Year)
-**Field Name:** SchoolYear
-**Data Type:** char
-**Size:** 4
-**Allow NULL?:** No. May not be left blank. Data is required.
-**Description:** The ending year for the current school year for the district. The four digit year in which the school year ends.
-**Business Rules:** For the 2009–2010 current school year, report 2010.
-**Example:** 2010
-**Valid Values:** 2010
-**Last Updated:** January 2009
+[Element A01 - School Year](#A01-School-Year)  
+**Field Name:** SchoolYear  
+**Data Type:** char  
+**Size:** 4  
+**Allow NULL?:** No. May not be left blank. Data is required.  
+**Description:** The ending year for the current school year for the district. The four digit year in which the school year ends.  
+**Business Rules:** For the 2009–2010 current school year, report 2010.  
+**Example:** 2010  
+**Valid Values:** 2010  
+**Last Updated:** January 2009  
 
 [Element A02 - County District Code](#A02-County-District-Code)
 **Field Name:** CountyDistrictCode
