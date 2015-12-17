@@ -37,7 +37,7 @@
 **Valid Values:** Refer to valid values table in Appendix A.  
 **Last Updated:** September 2007  
 
-#A06 School Name
+#A06-School-Name
 
 [Element A04 - Location ID](#A04-Location-ID)  
 **Field Name:** LocationID  
