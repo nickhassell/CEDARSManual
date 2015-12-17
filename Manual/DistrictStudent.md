@@ -1,10 +1,10 @@
-###District Student File (B)  
+###District Student File (B)
 **File Name:** DistrictStudent  
 **Description:** This file consists of a record(s) for each student served in the district during the current school year along with the basic demographic data associated with the student. A student should have a record for each enrollment. Multiple enrollment records within one district will be necessary if the student enters, exits, and reenters a district. Entry and exit dates may not overlap for individual students.  
 
 **Sample File Name:** 12345_0000_DistrictStudent_20070303.txt  
 
-####Element B01 – School Year  
+####Element B01 - School Year
 **Field Name:** SchoolYear  
 **Data Type:** char  
 **Size:** 4  
@@ -15,7 +15,7 @@
 **Valid Values:** 2009  
 **Last Updated:** September 2007  
 
-####Element B02 – Serving County District Code  
+####Element B02 - Serving County District Code
 **Field Name:** ServingCountyDistrictCode  
 **Data Type:** char  
 **Size:** 5  
@@ -26,7 +26,7 @@
 **Valid Values:** Refer to valid values table in Appendix A.  
 **Last Updated:** September 2007  
 
-####Element B03 – Resident County District Code  
+####Element B03 - Resident County District Code
 **Field Name:** ResidentCountyDistrictCode  
 **Data Type:** char  
 **Size:** 5  
@@ -37,7 +37,7 @@
 **Valid Values:** Refer to valid values table in Appendix A.  
 **Last Updated:** January 2009  
 
-####Element B04 – District Student ID  
+####Element B04 - District Student ID
 **Field Name:** DistrictStudentID  
 **Data Type:** varchar  
 **Size:** 50  
@@ -47,7 +47,7 @@
 **Example:** 123456789012 or 124 or TG096  
 **Last Updated:** September 2007  
 
-####Element B05 – State Student ID (SSID)  
+####Element B05 - State Student ID (SSID)
 **Field Name:** SSID  
 **Data Type:** char  
 **Size:** 10  
@@ -59,7 +59,7 @@ SSID numbers must not begin with a zero. A Null value indicates a new student wi
 **Example:** 1234567890  
 **Last Updated:** September 2007  
 
-####Element B06 – Legal Last Name  
+####Element B06 - Legal Last Name
 **Field Name:** LastName  
 **Data Type:** varchar  
 **Size:** 60  
@@ -69,7 +69,7 @@ SSID numbers must not begin with a zero. A Null value indicates a new student wi
 **Example:** Smith  
 **Last Updated:** September 2007  
 
-####Element B07 – Legal First Name  
+####Element B07 - Legal First Name
 **Field Name:** FirstName  
 **Data Type:** varchar  
 **Size:** 60  
@@ -79,7 +79,7 @@ SSID numbers must not begin with a zero. A Null value indicates a new student wi
 **Example:** John  
 **Last Updated:** January 2009  
 
-####Element B08 – Legal Middle Name(s)  
+####Element B08 - Legal Middle Name(s)
 **Field Name:** MiddleName  
 **Data Type:** varchar  
 **Size:** 60  
@@ -90,7 +90,7 @@ Every effort should be made to obtain the student’s legal middle name. When this
 **Example:** Ray  
 **Last Updated:** September 2007  
 
-####Element B09 – Birth Date  
+####Element B09 - Birth Date
 **Field Name:** BirthDate  
 **Data Type:** datetime MM/DD/YYYY Format.  
 **Allow NULL?:** No. May not be left blank. Data is required.  
@@ -99,7 +99,7 @@ Every effort should be made to obtain the student’s legal middle name. When this
 **Example:** 1/2/2003 or 01/02/2003  
 **Last Updated:** September 2007  
 
-####Element B10 – Birth Country  
+####Element B10 - Birth Country
 **Field Name:** BirthCountry  
 **Data Type:** char  
 **Size:** 3  
@@ -112,7 +112,7 @@ Must be a valid National Origin Country Code from the National Origin Country Co
 **Valid Values:** Refer to the valid values table in Appendix C.  
 **Last Updated:** May 2009  
 
-####Element B11 – Ethnicity Code (CSRS Transitional)   
+####Element B11 - Ethnicity Code (CSRS Transitional)
 **Field Name:** CSRSEthnicityCode  
 **Data Type:** Numeric  
 **Size:** See Data Type Definitions.  
@@ -123,7 +123,7 @@ Must be a valid National Origin Country Code from the National Origin Country Co
 **Valid Values:** This is a CSRS Transitional Element. It will be eliminated in Sept 2010 and replaced by the data elements in Table L (ethnicity code) and Table M (race code). If data is provided in Element L05 and M05, the data provided in this element (B11) will be ignored and reporting will be pulled from Element L05 and M05. If data is not provided for both L05 and M05, data from B11 will be used.  
 **Last Updated:** May 2009  
 
-####Element B12 – Gender  
+####Element B12 - Gender
 **Field Name:** Gender  
 **Data Type:** char  
 **Size:** 1  
@@ -135,7 +135,7 @@ Must be a valid National Origin Country Code from the National Origin Country Co
 M-Male  
 **Last Updated:** September 2007  
 
-####Element B13 – Grade Level   
+####Element B13 - Grade Level
 **Field Name:** GradeLevel  
 **Data Type:** varchar  
 **Size:** 2  
@@ -146,7 +146,7 @@ M-Male
 **Valid Values:** Refer to the valid values table in Appendix E. A suggested list of Grade Level Assignments by Age is listed in Appendix G.  
 **Last Updated:** September 2007  
 
-####Element B14 – Date Enrolled in District  
+####Element B14 - Date Enrolled in District
 **Field Name:** DistrictEnrollmentDate  
 **Data Type:** datetime	MM/DD/YYYY Format.  
 **Size:** See Data Type Definitions.  
@@ -158,7 +158,7 @@ If, during the current school year, the student exits the district and then retu
 If the student exits and returns one or more times within an current school year, all of the entry/exit dates shall be reported (requires multiple records for the student).  
 If a student has multiple records the Date Enrolled in District may not overlap with another record for the student.  
 If the student enrolls during the summer when school is not in session, use the date the student will begin classes (the first day of the current school year) as the district enrollment date.  
-The enrollment date must be on or after [Element B09, Birth Date](#Element-B09–Birth-Date), and less than six months from the future enrollment.  
+The enrollment date must be on or after [Element B09, Birth Date](#Element-B09---Birth-Date), and less than six months from the future enrollment.  
 **Example:** 1/1/2000 or 01/01/2000  
 **Last Updated:** April 2008  
 
