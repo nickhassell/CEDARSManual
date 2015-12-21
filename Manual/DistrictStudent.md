@@ -262,9 +262,10 @@ Section 725 of the McKinney-Vento Act defines the following terms:
 	4. Migratory children (as defined in section 1309 of the Elementary and Secondary Education Act of 1965, as amended) who qualify as homeless because they are living in circumstances described in this definition.
 * Enroll and enrollment include attending classes and participating fully in school activities.
 * Unaccompanied youth includes a youth not in the physical custody of a parent or guardian.  
+
 **Example:** Y  
 **Valid Values:** Y - Yes  
-	N - No  
+N - No  
 **Last Updated:** July 2008  
 
 ####Element B22 - Is Student an Approved Private School Student Attending Class Part Time
@@ -275,10 +276,9 @@ Section 725 of the McKinney-Vento Act defines the following terms:
 **Description:** Indicates whether or not the student is enrolled in an approved private school and is attending class(es) part time.  
 **Business Rules:** See Valid Values below.  
 A student is defined as Approved Private School Attending Class Part Time when they are also enrolled in a public school for the purpose of taking any course or receiving any ancillary service, or any combination of courses and ancillary services.  
-
 **Example:** Y  
 **Valid Values:** Y – Yes  
-	N – No  
+N – No  
 **Last Updated:** July 2008
 
 ####Element B23 - Is Student a Home-Schooled Student Attending Class Part time
@@ -291,7 +291,7 @@ A student is defined as Approved Private School Attending Class Part Time when t
 A student is defined as Home-Schooled Attending Class Part Time when they are participating in home-based instruction and also are enrolled in a public school for the purpose of taking any course or receiving any ancillary service.  
 **Example:** N  
 **Valid Values:** Y – Yes  
-	N – No  
+N – No  
 **Last Updated:** January 2009
 
 ####Element B24 - Is Student from a Foreign Country with an F-1 Visa
@@ -305,7 +305,7 @@ This data element pertains to students on an F-1 Visa. Students on F-1 Visas do 
 In contrast, foreign exchange students (e.g., J-1 Visa) are in a program that ‘exchanges’ a student from our country with a student from another country. As a result, foreign exchange students are regarded as ‘regular’ students in the district and generate apportionment for the district like any other resident student.  
 **Example:** Y or N  
 **Valid Values:** N – No  
-	Y – Yes  
+Y – Yes  
 **Last Updated:** September 2007
 
 ####Element B25 - Is Student in Foster Care
@@ -319,7 +319,7 @@ Attorneys and other advocates who work in the child welfare field are most likel
 **Business Rules:** See Valid Values below.  
 **Example:** Y or N  
 **Valid Values:** N – No  
-	Y – Yes  
+Y – Yes  
 **Last Updated:** January 2009
 
 ####Element B26 - Graduation Requirements Year
