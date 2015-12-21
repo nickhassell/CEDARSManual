@@ -106,7 +106,7 @@ Every effort should be made to obtain the student’s legal middle name. When this
 **Allow NULL?:** Yes. Conditional.  
 **Description:** The country where the student was born.  
 **Business Rules:** Required for students participating or receiving services from the Title III Immigrant Program.  
-If Element I06, Program Code, is equal to 15, Title III Immigrant, a valid Birth Country must be reported.  
+If [Element I06](\I-StudentPrograms.md#element-i06---program-code), Program Code, is equal to 15, Title III Immigrant, a valid Birth Country must be reported.  
 Must be a valid National Origin Country Code from the National Origin Country Codes found in Appendix C.  
 **Example:** MEX  
 **Valid Values:** Refer to the valid values table in Appendix C.  
@@ -152,8 +152,8 @@ M-Male
 **Size:** See Data Type Definitions.  
 **Allow NULL?:** No. May not be left blank. Data is required.  
 **Description:** The date on which the student began attending class.  
-**Business Rules:** This date must be the same as, or earlier than, the date contained in 	Element C06, Date Student Enrolled in School.  
-Continuously enrolled status for the district will be calculated for AYP purposes based on this element and [Element B15, Date Exited from District](#element-b15---date-exited-from-district). If the student has been enrolled in the district for many years, but the district’s Student Information System is not able to track historical data because it re-enrolls students each year, you may use the date in Element C06, Date Student Enrolled in School, which is the date enrolled for the current school year.  
+**Business Rules:** This date must be the same as, or earlier than, the date contained in [Element C06](\C-SchoolStudent.md#element-c06---date-student-enrolled-in-school), Date Student Enrolled in School.  
+Continuously enrolled status for the district will be calculated for AYP purposes based on this element and [Element B15, Date Exited from District](#element-b15---date-exited-from-district). If the student has been enrolled in the district for many years, but the district’s Student Information System is not able to track historical data because it re-enrolls students each year, you may use the date in [Element C06](\C-SchoolStudent.md#element-c06---date-student-enrolled-in-school), Date Student Enrolled in School, which is the date enrolled for the current school year.  
 If, during the current school year, the student exits the district and then returns, the date the student returned to the district and resumed participation in class becomes the district enrollment date. The district enrollment date shall be reported in the current school year in which the enrollment occurred.  
 If the student exits and returns one or more times within an current school year, all of the entry/exit dates shall be reported (requires multiple records for the student).  
 If a student has multiple records the Date Enrolled in District may not overlap with another record for the student.  
@@ -168,8 +168,8 @@ The enrollment date must be on or after [Element B09, Birth Date](#element-b09--
 **Size:** See Data Type Definitions.  
 **Allow NULL?:** Yes. Conditional. See Business Rules.  
 **Description:** The date on which the student withdraws from the school district. The last day the student attended or received services from the district. This date will change each time a student leaves the district.  
-**Business Rules:** If a date is entered, then Element C08, Date Student Exited from School, should have a matching exit date for the school within the district that was last attended by the student.  
-If the student enters and exits on the same date, the same date is used in Elements B14, B15, C06 and C08.  
+**Business Rules:** If a date is entered, then [Element C08](\C-SchoolStudent.md#element-c08---date-student-exited-from-school), Date Student Exited from School, should have a matching exit date for the school within the district that was last attended by the student.  
+If the student enters and exits on the same date, the same date is used in Elements [B14](#element-b14---data-enrolled-in-district), [B15](#element-b15---date-exited-from-district), [C06](\C-SchoolStudent.md#element-c06---date-student-enrolled-in-school) and [C08](\C-SchoolStudent.md#element-c08---date-student-exited-from-school).  
 If the student exits and returns within a current school year all of the entry/exit dates shall be reported (requires multiple records for the student).    
 If the student leaves the district during the summer, use the actual date the student left the district as the district exit date.  
 Continuously enrolled status for the district will be calculated for WASL purposes based on this element and [Element B14](#element-b14---date-enrolled-in-district).  
@@ -211,7 +211,7 @@ Refer to the valid value table in Appendix I.
 **Size:** See Data Type Definitions  
 **Allow NULL?:** No. May not be left blank. Data is required.  
 **Description:** The first learned language spoken by the student.  
-**Business Rules:** This language will always be the student's native or first language spoken. Must be a valid value from the Language Codes listed in Appendix K. If the student is reported as receiving State Transitional Bilingual Instruction services, this value should not equal 639 (English). Upon exiting the State Transitional Bilingual Instruction Program, this Element, B17, Student Primary Language Code, should remain the student’s native or first language spoken.  
+**Business Rules:** This language will always be the student's native or first language spoken. Must be a valid value from the Language Codes listed in Appendix K. If the student is reported as receiving State Transitional Bilingual Instruction services, this value should not equal 639 (English). Upon exiting the State Transitional Bilingual Instruction Program, this Element, [B17](#element-b17---student-primary-language-code), Student Primary Language Code, should remain the student’s native or first language spoken.  
 **Example:** 015 or 15  
 **Valid Values:** Refer to valid values table in Appendix K.  
 **Last Updated:** August 2009
