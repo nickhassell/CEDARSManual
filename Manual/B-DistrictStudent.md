@@ -112,7 +112,7 @@ Must be a valid National Origin Country Code from the National Origin Country Co
 **Valid Values:** Refer to the valid values table in Appendix C.  
 **Last Updated:** May 2009  
 
-####Element B11 - Ethnicity Code (CSRS Transitional)
+####Element B11 - Ethnicity Code
 **Field Name:** CSRSEthnicityCode  
 **Data Type:** Numeric  
 **Size:** See Data Type Definitions.  
