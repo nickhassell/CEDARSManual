@@ -94,6 +94,7 @@ O - Online (does not print on the transcript)
 **Allow NULL?:** Yes. Conditional. See Business Rules for implementation schedule.  
 **Description:** The course code used by the State to represent the unique course.   
 **Business Rules:** Must be a valid code from the State Course Codes found in Appendix V.  Include State Course Codes for grades PK–12 with scheduled courses and various teachers. State Course Codes will be required on the following schedule:
+
 Subject areas | Date required to be reported
 ------------- | -------------
 Math | November 2009
@@ -102,6 +103,7 @@ English/Language Arts | March 2010
 Social Studies | March 2010
 Foreign Language | March 2010
 All Others | May 2010
+
 **Example:** 02154 – This is the code for Business Math.  
 **Valid Values:** Refer to the valid values table in Appendix V.  
 **Last Updated:** January 2009
